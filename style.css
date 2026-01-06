@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+nav {
+    background: #334155;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 50px 20px;
+    text-align: center;
+    background: #e2e8f0;
+}
+
+.hero button {
+    padding: 12px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.light {
+    background: #ffffff;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card li {
+    padding: 5px 0;
+}
+
+.why-list {
+    max-width: 400px;
+    margin: auto;
+    list-style: none;
+    font-size: 18px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form select, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    background: #16a34a;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1e293b;
+    color: white;
+    margin-top: 30px;
+}
